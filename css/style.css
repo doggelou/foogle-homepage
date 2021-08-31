@@ -6,9 +6,12 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    
     min-height: 99%;
     /* padding: 20px; */
+
+    font-family: arial, sans-serif;
+    font-weight: 400;
+
 }
 
 main {
@@ -36,6 +39,12 @@ nav {
     justify-content:space-between;
     align-items: center;
     padding: 0 30px;
+
+}
+
+.btn-transparent{
+    background-color: transparent; 
+    border: 0;
 }
 
 footer {
@@ -44,4 +53,67 @@ footer {
     align-items: center;
     margin-top: auto;
     padding: 5px 30px;
+    background-color: #f3f3f3;
+
 }
+
+nav a {
+    
+    color: rgb(46, 38, 38);
+    font-size: 13px;
+}
+
+nav .sign-in {
+    background-color: #4a68f0;
+    color: white;
+    border-radius: 4.5px;
+    padding: 0.5em;
+    border: 0;
+    height: 35px;
+    width: 95px;
+    font-size: 14px;
+}
+
+nav .sign-in:hover {
+    background-color: #2B7DE9;
+}
+
+
+
+
+body .center button a{
+    color: #222;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+footer a {
+    color: #5f6368;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+nav a, footer a {
+    text-decoration: none;    
+}
+
+.nav-left, nav-right  {
+    height: 3em;
+    margin-top: 1em
+}
+
+.nav-left a {
+    font-size: 14px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer div img {
+    height: 0.75em;
+    width: 0.75em;
+    padding: 0;
+}
+
