@@ -78,6 +78,51 @@ nav .sign-in:hover {
     background-color: #2B7DE9;
 }
 
+#google-logo {
+    margin: 1.5em;
+}
+
+
+.center button {
+    border: 0;
+}
+
+input {
+    border: 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: Roboto, arial, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+form {
+    margin: 0;
+}
+
+.search-div {
+    border: 1px solid #ced6dd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    height: 44px;
+    max-width: 575px;
+    margin: 0 auto;
+}
+
+.searchbar-img {
+    max-height: 24px;
+    width: auto;
+    margin: auto 0.7em;
+}
 
 
 
@@ -86,6 +131,15 @@ body .center button a{
     font-size: 14px;
     line-height: 27px;
 }
+
+.btn-center {
+    padding: 0.6em 1.25em;
+    background-color: #F8F9FA;
+    color: rgb(73, 73, 73);
+    border-radius: 6px;
+    margin: 0.7em 0.3em;
+}
+
 
 footer a {
     color: #5f6368;
@@ -116,4 +170,3 @@ footer div img {
     width: 0.75em;
     padding: 0;
 }
-

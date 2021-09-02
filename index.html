@@ -37,17 +37,20 @@ https://web.archive.org/web/20191130234759/https://www.google.com/-->
 
     <main>
         <div class="center">
-            <img src="images/google-logo.png" alt="Google logo">
+            <img id="google-logo" src="images/google-logo.png" alt="Google logo">
      
             <form action="#">
-                <img src="images/search_black_24dp.svg" asslt="search icon">
-                <input type="text">
-                <button type="submit">
-                    <img src="images/mic_black_24dp.svg" alt="voice input">
-                </button>
+                <div class="search-div">
+                    <img class="searchbar-img" src="images/search_black_24dp.svg" asslt="search icon">
+                    <input type="text" tabindex="1">
+                    <button type="submit" class="btn-transparent">
+                        <img class="searchbar-img" src="images/mic_black_24dp.svg" alt="voice input">
+                    </button>
+                </div>
+    
                 <br>
-                <button type="submit">Google Search</button>
-                <a href="#"><button type="button">I'm Feeling Lucky</button></a>
+                <button class="btn-center" type="submit">Google Search</button>
+                <a href="#"><button class="btn-center" type="button">I'm Feeling Lucky</button></a>
             </form>
         </div>
     </main>
