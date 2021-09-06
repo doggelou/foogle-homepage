@@ -29,7 +29,7 @@ main .center {
     width: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 50%;
+    top: 24%;
     left: 50%;
     /* padding: 20px; */
 }
@@ -38,7 +38,7 @@ nav {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 20px;
 
 }
 
@@ -52,9 +52,8 @@ footer {
     justify-content:space-between;
     align-items: center;
     margin-top: auto;
-    padding: 5px 30px;
+    padding: 0px 35px;
     background-color: #f3f3f3;
-
 }
 
 nav a {
@@ -63,8 +62,8 @@ nav a {
     font-size: 13px;
 }
 
-nav .sign-in {
-    background-color: #4a68f0;
+nav .sign-in-btn {
+    background-color: #4c6af1;
     color: white;
     border-radius: 4.5px;
     padding: 0.5em;
@@ -74,7 +73,7 @@ nav .sign-in {
     font-size: 14px;
 }
 
-nav .sign-in:hover {
+nav .sign-in-btn:hover {
     background-color: #2B7DE9;
 }
 
@@ -114,7 +113,7 @@ form {
     align-items: center;
     border-radius: 25px;
     height: 44px;
-    max-width: 575px;
+    max-width: 580px;
     margin: 0 auto;
 }
 
@@ -126,9 +125,8 @@ form {
 
 
 
-body .center button a{
+body .center button {
     color: #222;
-    font-size: 14px;
     line-height: 27px;
 }
 
@@ -138,6 +136,7 @@ body .center button a{
     color: rgb(73, 73, 73);
     border-radius: 6px;
     margin: 0.7em 0.3em;
+    font-size: 14px;
 }
 
 
@@ -151,10 +150,35 @@ nav a, footer a {
     text-decoration: none;    
 }
 
-.nav-left, nav-right  {
+
+
+.nav-left, .nav-right  {
     height: 3em;
-    margin-top: 1em
+    display: flex;
+    justify-content: space-between;
 }
+.nav-left {
+    width: 90px;
+    margin-left: 0.5em;
+    margin-top: 1.5em;
+}
+.nav-right {
+    width: 263px;
+    margin-top: 0;
+    align-items: center;
+    margin-top: -15px;
+}
+.gmail-images {
+    display: flex;
+    align-items: center;
+}
+.apps-sign-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+}
+
 
 .nav-left a {
     font-size: 14px;
@@ -169,4 +193,42 @@ footer div img {
     height: 0.75em;
     width: 0.75em;
     padding: 0;
+}
+
+.foot-left, .foot-center,.foot-right,
+.foot-alt-left, .foot-alt-center, .foot-alt-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-left {
+    width: 305px;
+}
+
+.foot-right {
+    width: 195px;
+}
+
+.foot-center {
+    width: 180px;
+}
+
+.foot-alt-left, .foot-alt-center, .foot-alt-right{
+    width: 30vw;
+}
+
+.foot-alt-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.foot-alt-center {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-alt-right {
+    display: flex;
+    justify-content: flex-end;
 }

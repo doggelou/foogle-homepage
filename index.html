@@ -1,7 +1,8 @@
 <!--Hello Universe-->
 
 <!-- Google Homepage:
-https://web.archive.org/web/20191130234759/https://www.google.com/-->
+https://web.archive.org/web/20191130234759/https://www.google.com/
+https://www.google.com/-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +12,7 @@ https://web.archive.org/web/20191130234759/https://www.google.com/-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <title>Google Homepage</title>
+    <title>Google</title>
 </head>
 <body>
     <nav>
@@ -20,18 +21,21 @@ https://web.archive.org/web/20191130234759/https://www.google.com/-->
             <a href="#">Store</a>
         </div>
         <div class="nav-right">
+            <div class="gmail-images">
+                <button class="btn-transparent"><a href="#">Gmail</a></button>
+                <button class="btn-transparent"><a href="#">Images</a></button>      
+            </div>
 
-            <button class="btn-transparent"><a href="#">Gmail</a></button>
-            <button class="btn-transparent"><a href="#">Images</a></button>
+            <div class="apps-sign-in">
+                <a href="">
+                    <img src="images/apps_black_24dp.svg" alt="apps icon">
+                </a>
+    
+                <a href="#"><button class="sign-in-btn" type="button">
+                    Sign in
+                </button></a>
+            </div>
 
-            <a href="">
-                <img src="images/apps_black_24dp.svg" alt="apps icon">
-            </a>
-                
-
-            <a href="#"><button class="sign-in" type="button">
-                Sign in
-            </button></a>
         </div>
     </nav>
 
@@ -41,10 +45,10 @@ https://web.archive.org/web/20191130234759/https://www.google.com/-->
      
             <form action="#">
                 <div class="search-div">
-                    <img class="searchbar-img" src="images/search_black_24dp.svg" asslt="search icon">
+                    <img class="searchbar-img" src="images/google-search.png" asslt="search icon">
                     <input type="text" tabindex="1">
                     <button type="submit" class="btn-transparent">
-                        <img class="searchbar-img" src="images/mic_black_24dp.svg" alt="voice input">
+                        <img class="searchbar-img" src="images/google-microphone.png" alt="voice input">
                     </button>
                 </div>
     
@@ -56,19 +60,27 @@ https://web.archive.org/web/20191130234759/https://www.google.com/-->
     </main>
 
     <footer>
-        <div class="foot-left">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search works</a>
+        <div class="foot-alt-left">
+            <div class="foot-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>   
         </div>
-        <div class="foot-center">
-            <img src="images/leaf.png" alt="leaf icon">
-            <a href="#">Carbon neutral since 2007</a>
+        
+        <div class="foot-alt-center">
+            <div class="foot-center">
+                <img src="images/leaf.png" alt="leaf icon">
+                <a href="#">Carbon neutral since 2007</a>
+            </div>
         </div>
-        <div class="foot-right">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+
+        <div class="foot-alt-right">
+            <div class="foot-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
         </div>
     </footer>
 
