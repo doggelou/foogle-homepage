@@ -1,234 +1,232 @@
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    min-height: 99%;
-    /* padding: 20px; */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 99%;
+  /* padding: 20px; */
 
-    font-family: arial, sans-serif;
-    font-weight: 400;
-
+  font-family: arial, sans-serif;
+  font-weight: 400;
 }
 
 main {
-    position: relative;
-    height: 70vh;
-    width: 100%;
-    margin: 0 auto;
-    /* padding: 20px; */
-
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 20px; */
 }
 
 main .center {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 24%;
-    left: 50%;
-    /* padding: 20px; */
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  /* padding: 20px; */
 }
 
 nav {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 0 20px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.btn-transparent{
-    background-color: transparent; 
-    border: 0;
+.btn-transparent {
+  background-color: transparent;
+  border: 0;
 }
 
 footer {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    margin-top: auto;
-    padding: 0px 35px;
-    background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 0px 35px;
+  background-color: #f3f3f3;
 }
 
 nav a {
-    
-    color: rgb(46, 38, 38);
-    font-size: 13px;
+  color: rgb(46, 38, 38);
+  font-size: 13px;
 }
 
 nav .sign-in-btn {
-    background-color: #4c6af1;
-    color: white;
-    border-radius: 4.5px;
-    padding: 0.5em;
-    border: 0;
-    height: 35px;
-    width: 95px;
-    font-size: 14px;
+  background-color: #4c6af1;
+  color: white;
+  border-radius: 4.5px;
+  padding: 0.5em;
+  border: 0;
+  height: 35px;
+  width: 95px;
+  font-size: 14px;
 }
 
 nav .sign-in-btn:hover {
-    background-color: #2B7DE9;
+  background-color: #2b7de9;
 }
 
 #google-logo {
-    margin: 1.5em;
+  margin: 1.5em;
+  width: 230px;
+  margin-bottom: 0;
 }
 
-
 .center button {
-    border: 0;
+  border: 0;
 }
 
 input {
-    border: 0;
-    width: 100%;
-    font-size: 16px;
-    font-family: Roboto, arial, sans-serif;
-    color: rgba(0, 0, 0, 0.87);
+  border: 0;
+  width: 100%;
+  font-size: 16px;
+  font-family: Roboto, arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 form {
-    margin: 0;
+  margin: 0;
 }
 
 .search-div {
-    border: 1px solid #ced6dd;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 25px;
-    height: 44px;
-    max-width: 580px;
-    margin: 0 auto;
+  border: 1px solid #ced6dd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  height: 44px;
+  max-width: 580px;
+  margin: 0 auto;
 }
 
 .searchbar-img {
-    max-height: 24px;
-    width: auto;
-    margin: auto 0.7em;
+  max-height: 24px;
+  width: auto;
+  margin: auto 0.7em;
 }
 
-
-
 body .center button {
-    color: #222;
-    line-height: 27px;
+  color: #222;
+  line-height: 27px;
 }
 
 .btn-center {
-    padding: 0.6em 1.25em;
-    background-color: #F8F9FA;
-    color: rgb(73, 73, 73);
-    border-radius: 6px;
-    margin: 0.7em 0.3em;
-    font-size: 14px;
+  padding: 0.6em 1.25em;
+  background-color: #f8f9fa;
+  color: rgb(73, 73, 73);
+  border-radius: 6px;
+  margin: 0.7em 0.3em;
+  font-size: 14px;
 }
-
 
 footer a {
-    color: #5f6368;
-    font-size: 14px;
-    line-height: 40px;
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 40px;
 }
 
-nav a, footer a {
-    text-decoration: none;    
+nav a,
+footer a {
+  text-decoration: none;
 }
 
-
-
-.nav-left, .nav-right  {
-    height: 3em;
-    display: flex;
-    justify-content: space-between;
+.nav-left,
+.nav-right {
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
 }
 .nav-left {
-    width: 90px;
-    margin-left: 0.5em;
-    margin-top: 1.5em;
+  width: 90px;
+  margin-left: 0.5em;
+  margin-top: 1.5em;
 }
 .nav-right {
-    width: 263px;
-    margin-top: 0;
-    align-items: center;
-    margin-top: -15px;
+  width: 263px;
+  margin-top: 0;
+  align-items: center;
+  margin-top: -15px;
 }
 .gmail-images {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .apps-sign-in {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
 }
 
-
 .nav-left a {
-    font-size: 14px;
-    
+  font-size: 14px;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer div img {
-    height: 0.75em;
-    width: 0.75em;
-    padding: 0;
+  height: 0.75em;
+  width: 0.75em;
+  padding: 0;
 }
 
-.foot-left, .foot-center,.foot-right,
-.foot-alt-left, .foot-alt-center, .foot-alt-left {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.foot-left,
+.foot-center,
+.foot-right,
+.foot-alt-left,
+.foot-alt-center,
+.foot-alt-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .foot-left {
-    width: 305px;
+  width: 305px;
 }
 
 .foot-right {
-    width: 195px;
+  width: 195px;
 }
 
 .foot-center {
-    width: 180px;
+  width: 180px;
 }
 
-.foot-alt-left, .foot-alt-center, .foot-alt-right{
-    width: 30vw;
+.foot-alt-left,
+.foot-alt-center,
+.foot-alt-right {
+  width: 30vw;
 }
 
 .foot-alt-left {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .foot-alt-center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .foot-alt-right {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
